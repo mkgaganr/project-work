@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000077;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f111;
+  text-decoration:underline;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+ul.topbar {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #f1f1a1;
+}
+
+ul.topbar li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.topbar li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.topbar li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+ul.topbar a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.topctr {
+  overflow: hidden;
+  background-color: #0A0af5;
+  padding: 20px 10px;
+}
+
+
+.topctr a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-color : #f5f50a ;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.topctr a.logo {
+  font-size: 25px;
+   font-color : #f5f50a ;
+  font-weight: bold;
+}
+
+.topctr a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topctr a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="material-icons">arrow_back</i></a>
+  <a href="#">Home</a>
+  <a href="#">Planner</a>
+  <a href="#">Manager</a>
+  <a href="#">Class</a>
+  <a href="#">Events</a>
+  <a href="#">Help</a>
+  <a href="#">Logout</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="material-icons"style ="font-size:40px; color:rgba(10,117,200,100%);">menu</i></span>
+<div class="topctr">
+<a href="#" class="logo">Attend</a>
+  <div class="header-right">
+    <a href="#">Logout</a>
+  </div>
+</div>
+
+<ul class="topbar">
+<li></li>
+<li></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 
