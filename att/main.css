@@ -1,0 +1,123 @@
+
+header
+{
+	background:#00002f;
+	color:white;
+	padding:12px;
+	margin:0px 70px;
+	
+}
+
+
+oneline img
+{
+	margin-left:175px;
+}
+oneline h3
+{
+	margin-left:115px;
+}
+
+oneline form
+{ 
+	float:right;
+	display:inline-block;
+}
+oneline li
+{
+	list-style-type:none;
+	display:inline-block;
+	margin:0px 15px;
+	
+}
+oneline li a
+{
+	color:white;
+	text-decoration:none;
+	
+}
+oneline li a:hover
+{
+	color:orange;
+	
+}
+orange
+{
+	color:orange;
+}
+gray
+{
+	color:gray;
+}
+button1
+{
+	background-color:orange;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	display:inline-block;
+	font-size:16px;
+	float:right;
+	margin-top:45px;
+	margin-right:75px;
+}
+button1:hover
+{
+	background-color:White;
+	color:orange;
+	border-style:solid;
+	border-color:orange;
+	cursor:pointer;
+	padding:12.6px 29px;
+	
+}
+sample div img
+{
+	
+	height:300px;
+	width:450px;
+	margin-top:30px;
+	padding-left:40px;
+	
+	
+}
+sample div
+{
+	display:inline-block;
+	float:middle;
+	
+}
+half p
+{
+	background:#00002f;
+	color:white;
+	padding:30px;	
+	margin-left:300px;
+}
+half div
+{
+	display:inline-block;
+}
+.container 
+{ 
+	width:600px; 
+    height:250px; 
+    background-image:url("aboutusprofile.jpg"); 
+    padding-top:20px; 
+    padding-left:15px; 
+    padding-right:15px;
+	color:white;
+	box-shadow: 10px 10px 7px black;
+}	
+
+
+.container2
+{ 
+	width:98%; 
+    height:300px; 
+    background-image:url("aboutusbg.jpg"); 
+    padding-top:20px; 
+    padding-left:15px; 
+    padding-right:15px;
+	color:white;
+}	
